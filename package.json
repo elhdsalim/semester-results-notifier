@@ -4,6 +4,7 @@
   "description": "Automated notification system that monitors and alerts when semester results are available",
   "main": "index.js",
   "scripts": {
+    "init": "tsx src/init.ts",
     "dev": "tsx src/main.ts",
     "start": "tsx src/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
