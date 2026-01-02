@@ -1,0 +1,28 @@
+{
+  "name": "semester-results-notifier",
+  "version": "1.0.0",
+  "description": "Automated notification system that monitors and alerts when semester results are available",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elhdsalim/semester-results-notifier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "puppeteer": "^24.34.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "bugs": {
+    "url": "https://github.com/elhdsalim/semester-results-notifier/issues"
+  },
+  "homepage": "https://github.com/elhdsalim/semester-results-notifier#readme"
+}
