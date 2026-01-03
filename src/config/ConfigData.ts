@@ -13,7 +13,7 @@ export class Config {
 
     constructor() {
         this.checkIntervalMs = 1 * 60 * 1000;
-        this.viewportWidth = 1080;
+        this.viewportWidth = 2000;
         this.viewportHeight = 1024;
         this.waitDelayMs = 3000;
         this.headless = false;
