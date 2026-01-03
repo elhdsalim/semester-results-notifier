@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "init": "tsx src/init.ts",
-    "dev": "tsx src/main.ts",
     "start": "tsx src/main.ts",
+    "test-notification": "tsx src/test-notification.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +18,8 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^17.2.3",
-    "puppeteer": "^24.34.0"
+    "puppeteer": "^24.34.0",
+    "pushover-js": "^1.3.2"
   },
   "devDependencies": {
     "tsx": "^4.21.0",
