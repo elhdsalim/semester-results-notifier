@@ -84,6 +84,20 @@ export class BrowserAutomation {
     }
 
     /**
+     * Take a screenshot of the results page
+     */
+    public async takeScreenshot(filePath: string): Promise<void> {
+        if (!this.page) {
+            throw new Error('Error with the navigator (page)');
+        }
+
+        await this.page.screenshot({
+            path: filePath,
+            fullPage: true
+        });
+    }
+
+    /**
      * Close the navigator
      */
     public async close(): Promise<void> {
